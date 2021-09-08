@@ -1,0 +1,15 @@
+export const experiences = [
+  { name: "ReactJS" },
+  { name: "Angular2" },
+  { name: "Java" },
+  { name: "Springboot" },
+  { name: "Javascript" },
+  { name: "Node" },
+  { name: "HTML5" },
+  { name: "CSS" },
+  { name: "Javascript" },
+  { name: "Git" },
+  { name: "SQLServer" },
+  { name: "DynamoDB" },
+  { name: "Redis" },
+];
