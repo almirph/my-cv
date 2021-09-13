@@ -16,8 +16,21 @@ export const useStyles = makeStyles({
   cardInfo: {
     maxWidth: "1080px",
     margin: "40px",
+    transition: "transform .2s",
+    "&:hover": {
+      transform: "scale(1.025)",
+    },
+  },
+  dividerApp: {
+    width: "50%",
   },
   experiencesContainer: {
     display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    maxWidth: "1080px",
+    margin: "40px",
   },
 });
