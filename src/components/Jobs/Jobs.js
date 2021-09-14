@@ -15,7 +15,7 @@ export const Jobs = () => {
           <Typography variant="h5" component="h2">
             GFT Technologies
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body1" color="textSecondary" component="p">
             Em 2021 comencei a trabalhar como desenvolvedor Frontend na GFT
             utilizando o Framework Angular 2 para desenvolvimento de aplicações
             responsivas, não tinha experiência com o Framework e inicialmente
@@ -30,7 +30,7 @@ export const Jobs = () => {
           <Typography variant="h5" component="h2">
             Nova Tendência Informática
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body1" color="textSecondary" component="p">
             Em março de 2019 entrei na empresa como estagiário e posteriormente
             ganhei promoções para Analista de Sistemas Júnior e em 2020 para
             Pleno. Minhas atividades foram desenvolvimento de backends em Java
