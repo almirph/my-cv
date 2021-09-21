@@ -6,8 +6,9 @@ export const useStyles = makeStyles({
     flexDirection: "column",
     alignItems: "center",
   },
-  jobsTitle: {
-    margin: "40px 40px 20px 40px",
+  subTitle: {
+    fontSize: "14px",
+    marginBottom: "20px",
   },
   cardInfo: {
     maxWidth: "1080px",

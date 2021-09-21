@@ -7,13 +7,17 @@ export const Jobs = () => {
 
   return (
     <div className={classes.jobsContainer}>
-      <Typography className={classes.jobsTitle} variant="h5" component="h2">
-        Experiências
-      </Typography>
       <Card className={classes.cardInfo}>
         <CardContent>
           <Typography variant="h5" component="h2">
             GFT Technologies
+          </Typography>
+          <Typography
+            className={classes.subTitle}
+            variant="subtitle1"
+            component="div"
+          >
+            Maio 2021 - Atualmente
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             Em 2021 comencei a trabalhar como desenvolvedor Frontend na GFT
@@ -29,6 +33,13 @@ export const Jobs = () => {
         <CardContent>
           <Typography variant="h5" component="h2">
             Nova Tendência Informática
+          </Typography>
+          <Typography
+            className={classes.subTitle}
+            variant="subtitle1"
+            component="div"
+          >
+            Março 2019 - Maio 2021
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             Em março de 2019 entrei na empresa como estagiário e posteriormente
@@ -47,6 +58,13 @@ export const Jobs = () => {
         <CardContent>
           <Typography variant="h5" component="h2">
             Code Jr
+          </Typography>
+          <Typography
+            className={classes.subTitle}
+            variant="subtitle1"
+            component="div"
+          >
+            Agosto 2017 - Dezembro 2018
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             Capacitação com tecnologias que eram necessárias para criação de

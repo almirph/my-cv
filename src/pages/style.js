@@ -23,6 +23,7 @@ export const useStyles = makeStyles({
   },
   dividerApp: {
     width: "50%",
+    margin: "0",
   },
   experiencesContainer: {
     display: "flex",
@@ -32,5 +33,8 @@ export const useStyles = makeStyles({
     width: "100%",
     maxWidth: "1080px",
     margin: "40px",
+  },
+  jobsTitle: {
+    margin: "40px 40px 20px 40px",
   },
 });

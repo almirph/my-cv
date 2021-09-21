@@ -2,6 +2,7 @@ import { Card, CardContent, Divider, Typography } from "@material-ui/core";
 import React from "react";
 import { DownloadCard } from "../components/DownloadCard/DownloadCard";
 import Experiences from "../components/Experiences/Experiences";
+import { Footer } from "../components/Footer/Footer";
 import { Jobs } from "../components/Jobs/Jobs";
 import { useStyles } from "./style";
 
@@ -34,8 +35,21 @@ const HomePage = () => {
           component="hr"
           variant="inset"
         />
-        <Jobs></Jobs> <Experiences></Experiences>
+        <Typography className={classes.jobsTitle} variant="h5" component="h2">
+          Experiências
+        </Typography>
+        <Jobs></Jobs>
+        <Divider
+          className={classes.dividerApp}
+          component="hr"
+          variant="inset"
+        />
+        <Typography className={classes.jobsTitle} variant="h5" component="h2">
+          Competências
+        </Typography>
+        <Experiences></Experiences>
       </div>
+      <Footer></Footer>
     </React.Fragment>
   );
 };

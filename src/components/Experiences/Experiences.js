@@ -9,36 +9,7 @@ import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent";
 import Typography from "@material-ui/core/Typography";
 import { experiences } from "./experiencesConst";
 import { useStyles } from "./style";
-import useOnScreen from "../../utils/OnScreen";
 import { Fade } from "@material-ui/core";
-
-// const DummyComponent = () => {
-
-//   const ref = useRef()
-//   const isVisible = useOnScreen(ref)
-
-//   return <div ref={ref}>{isVisible && `Yep, I'm on screen`}</div>
-// }
-
-// const App = props => {
-//   const itemsRef = useRef([]);
-//   // you can access the elements with itemsRef.current[n]
-
-//   useEffect(() => {
-//      itemsRef.current = itemsRef.current.slice(0, props.items.length);
-//   }, [props.items]);
-
-//   return props.items.map((item, i) => (
-//     <div
-//         key={i}
-//         ref={el => itemsRef.current[i] = el}
-//         style={{ width: `${(i + 1) * 100}px` }}>
-//       ...
-//     </div>
-//   ));
-// }
-
-let prevScrollY = 0;
 
 export default function Experiences() {
   const itemsRef = useRef([]);
