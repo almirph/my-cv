@@ -1,4 +1,5 @@
 import { makeStyles } from "@material-ui/core";
+import { colors } from "../../utils/Colors";
 
 export const useStyles = makeStyles({
   jobsContainer: {
@@ -13,9 +14,11 @@ export const useStyles = makeStyles({
   cardInfo: {
     maxWidth: "1080px",
     margin: "0 40px 40px 40px",
-    transition: "transform .2s",
+    boxShadow: "none",
+    borderLeft: `3px solid ${colors.color4}`,
+    transition: "0.5s",
     "&:hover": {
-      transform: "scale(1.025)",
+      borderLeft: `3px solid ${colors.color3}`,
     },
   },
 });

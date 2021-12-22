@@ -57,7 +57,7 @@ export default function Experiences() {
               <Typography variant="body1">{experience.name}</Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot color="primary"></TimelineDot>
+              <TimelineDot className={classes.appTimeLineDot}></TimelineDot>
               {index !== experiences.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
             <TimelineContent>

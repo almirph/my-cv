@@ -13,7 +13,6 @@ export const DownloadCard = () => {
   return (
     <div className={classes.container}>
       <canvas id="animation" className={classes.animation}></canvas>
-
       <a className={classes.linkCv} href="./Almir Philipe.pdf" download>
         <Button
           variant="outlined"
@@ -22,6 +21,18 @@ export const DownloadCard = () => {
         >
           DOWNLOAD CV
         </Button>
+      </a>
+
+      <a
+        className={classes.linkLinkedin}
+        href="https://www.linkedin.com/in/almir-arruda-070408156/"
+        target="_blank"
+      >
+        <img
+          className={classes.imagemLinkedin}
+          src="/imagens/logo-linkedin.png"
+          alt="linkedin"
+        />
       </a>
     </div>
   );

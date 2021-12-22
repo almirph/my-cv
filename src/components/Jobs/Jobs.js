@@ -21,10 +21,11 @@ export const Jobs = () => {
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             Em 2021 comencei a trabalhar como desenvolvedor Frontend na GFT
-            utilizando o Framework Angular 2 para desenvolvimento de aplicações
-            responsivas, não tinha experiência com o Framework e inicialmente
-            foi uma experiência desafiadora, hoje me sinto muito confortável
-            desenvolvendo em Angular 2.
+            utilizando o Framework Angular 2 para desenvolvimento de uma
+            aplicação que serviria como peça única para o Open Banking de 5
+            segmentos do Banco Safra, não tinha experiência com o Framework e
+            inicialmente foi uma experiência desafiadora, hoje me sinto muito
+            experiente desenvolvendo em Angular 2.
           </Typography>
         </CardContent>
       </Card>
@@ -43,13 +44,14 @@ export const Jobs = () => {
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             Em março de 2019 entrei na empresa como estagiário e posteriormente
-            ganhei promoções para Analista de Sistemas Júnior e em 2020 para
-            Pleno. Minhas atividades foram desenvolvimento de backends em Java
-            utilizando arquitetura Spring Boot e frontend utilizando tecnologia
-            React. Também tive experiência com bancos de dados sqlserver em
-            projetos legado e novos, também bancos noSql DynamoDB e Redis.
-            Trabalhei com serviços da AWS para ambiente de microsserviços, banco
-            de dados e scripts.
+            ganhei promoções para Analista de Sistemas Júnior, em 2020 para
+            Pleno e no início de 2021 para Sênior. Minhas atividades foram
+            desenvolvimento de backends em Java utilizando arquitetura
+            SpringBoot e frontend utilizando tecnologia React. Também tive
+            experiência com bancos de dados sqlserver em projetos legado e
+            novos, também bancos noSql DynamoDB e Redis. Trabalhei com serviços
+            da AWS para ambiente de microsserviços, banco de dados e scripts
+            para tratamento de dados em DataLake.
           </Typography>
         </CardContent>
       </Card>

@@ -7,6 +7,7 @@ export const useStyles = makeStyles({
     alignItems: "center",
     width: "100%",
     height: "50vh",
+    position: "relative",
   },
   animation: { height: "50vh", width: "100%" },
   linkCv: {
@@ -17,5 +18,14 @@ export const useStyles = makeStyles({
   buttonDownload: {
     color: "#ffffff",
     borderColor: "#ffffff",
+  },
+  imagemLinkedin: {
+    width: "30px",
+  },
+  linkLinkedin: {
+    width: "30px",
+    position: "absolute",
+    bottom: 0,
+    margin: "20px",
   },
 });
