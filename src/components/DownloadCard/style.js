@@ -19,13 +19,15 @@ export const useStyles = makeStyles({
     color: "#ffffff",
     borderColor: "#ffffff",
   },
-  imagemLinkedin: {
+  imagemLogo: {
     width: "30px",
+    margin: "0 20px",
   },
-  linkLinkedin: {
-    width: "30px",
+  linkLogos: {
     position: "absolute",
     bottom: 0,
     margin: "20px",
+    display: "flex",
+    justifyContent: "center",
   },
 });

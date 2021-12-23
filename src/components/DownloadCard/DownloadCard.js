@@ -22,18 +22,25 @@ export const DownloadCard = () => {
           DOWNLOAD CV
         </Button>
       </a>
-
-      <a
-        className={classes.linkLinkedin}
-        href="https://www.linkedin.com/in/almir-arruda-070408156/"
-        target="_blank"
-      >
-        <img
-          className={classes.imagemLinkedin}
-          src="/imagens/logo-linkedin.png"
-          alt="linkedin"
-        />
-      </a>
+      <div className={classes.linkLogos}>
+        <a
+          href="https://www.linkedin.com/in/almir-arruda-070408156/"
+          target="_blank"
+        >
+          <img
+            className={classes.imagemLogo}
+            src="/imagens/logo-linkedin.png"
+            alt="linkedin"
+          />
+        </a>
+        <a href="https://github.com/almirph" target="_blank">
+          <img
+            className={classes.imagemLogo}
+            src="/imagens/logo-github.png"
+            alt="github"
+          />
+        </a>
+      </div>
     </div>
   );
 };
