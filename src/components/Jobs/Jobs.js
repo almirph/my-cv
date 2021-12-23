@@ -20,9 +20,9 @@ export const Jobs = () => {
             Maio 2021 - Atualmente
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
-            Em 2021 comencei a trabalhar como desenvolvedor Frontend na GFT
+            Em 2021 comecei a trabalhar como desenvolvedor Frontend na GFT
             utilizando o Framework Angular 2 para desenvolvimento de uma
-            aplicação que serviria como peça única para o Open Banking de 5
+            aplicação que iria servir como peça única para o Open Banking de 5
             segmentos do Banco Safra, não tinha experiência com o Framework e
             inicialmente foi uma experiência desafiadora, hoje me sinto muito
             experiente desenvolvendo em Angular 2.
