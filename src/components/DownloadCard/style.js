@@ -15,6 +15,11 @@ export const useStyles = makeStyles({
     zIndex: 1,
     textDecoration: "none",
   },
+  buttonStyle: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+  },
   buttonDownload: {
     color: "#ffffff",
     borderColor: "#ffffff",

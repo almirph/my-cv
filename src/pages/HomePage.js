@@ -1,12 +1,15 @@
 import { Card, CardContent, Divider, Typography } from "@material-ui/core";
-import React from "react";
+import React, { useContext } from "react";
 import { DownloadCard } from "../components/DownloadCard/DownloadCard";
 import Experiences from "../components/Experiences/Experiences";
 import { Footer } from "../components/Footer/Footer";
 import { Jobs } from "../components/Jobs/Jobs";
+import { ThemeContext } from "../Context/ThemeContext";
 import { useStyles } from "./style";
 
-const HomePage = () => {
+const HomePage = (props, c) => {
+  const context = useContext(ThemeContext);
+  console.log(context)
   const classes = useStyles();
 
   return (

@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import { ThemeContext, themes } from "./Context/ThemeContext";
 import HomePage from "./pages/HomePage";
 
 function App() {
+  const [actualTheme, setActualTheme] = useState(themes.light);
+
+  const toogleTheme = () => {
+    setActualTheme(actualTheme === themes.dark ? themes.light : themes.dark);
+    console.log('toogleTheme',actualTheme);
+  }
+
   return (
     <React.Fragment>
-      <HomePage></HomePage>
+      <ThemeContext.Provider value={{theme: actualTheme, toogleTheme: toogleTheme}}>
+        <HomePage></HomePage>
+      </ThemeContext.Provider>
     </React.Fragment>
   );
 }
