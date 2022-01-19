@@ -3,7 +3,7 @@ import React from 'react';
 import { ThemeContext, themes } from '../../Context/ThemeContext';
 import { useStyles } from "./style";
 
-export const ThemeSwitcher = ({  }) => {
+export const ThemeSwitcher = () => {
 
     const classes = useStyles();
 

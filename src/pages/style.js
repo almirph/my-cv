@@ -7,6 +7,7 @@ export const useStyles = makeStyles({
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "column",
+    backgroundColor: (theme) => theme.background
   },
   contentHome: {
     maxWidth: "780px",
@@ -15,6 +16,8 @@ export const useStyles = makeStyles({
     textAlign: "center",
   },
   cardInfo: {
+    backgroundColor: (theme) => theme.background,
+    color: (theme) => theme.foreground,
     maxWidth: "1080px",
     margin: "40px",
     boxShadow: "none",
@@ -22,7 +25,11 @@ export const useStyles = makeStyles({
     transition: "0.5s",
     "&:hover": {
       borderLeft: `3px solid ${colors.color3}`,
-    },
+    }
+  },
+  cardText: {
+    color: (theme) => theme.text,
+    margin: 0
   },
   dividerApp: {
     width: "50%",
@@ -39,6 +46,7 @@ export const useStyles = makeStyles({
     margin: "40px",
   },
   jobsTitle: {
+    color: (theme) => theme.foreground,
     margin: "40px 40px 20px 40px",
   },
 });

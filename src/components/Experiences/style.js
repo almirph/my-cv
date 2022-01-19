@@ -8,4 +8,7 @@ export const useStyles = makeStyles(() => ({
   appTimeLineDot: {
     backgroundColor: colors.color3,
   },
+  experienceName: {
+    color: (theme) => theme.foreground
+  }
 }));

@@ -12,6 +12,8 @@ export const useStyles = makeStyles({
     marginBottom: "20px",
   },
   cardInfo: {
+    color: (theme) => theme.foreground,
+    backgroundColor: (theme) => theme.background,
     maxWidth: "1080px",
     margin: "0 40px 40px 40px",
     boxShadow: "none",
@@ -21,4 +23,8 @@ export const useStyles = makeStyles({
       borderLeft: `3px solid ${colors.color3}`,
     },
   },
+  cardText: {
+    color: (theme) => theme.text,
+    margin: 0
+  }
 });

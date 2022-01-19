@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useStyles } from "./style";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 export const Footer = () => {
-  const classes = useStyles();
+
+  const context = useContext(ThemeContext)
+  const classes = useStyles(context.theme);
 
   return (
     <div>
@@ -10,9 +13,10 @@ export const Footer = () => {
       <div className={classes.footerContainer}>
         <span> Entre em conato comigo via </span>&nbsp;
         <a
-          class={classes.anchor}
+          className={classes.anchor}
           href="https://www.linkedin.com/in/almir-arruda-070408156/"
           target="_blank"
+          rel="noreferrer"
         >
           Linkedin
         </a>

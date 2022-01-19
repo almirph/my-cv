@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import Timeline from "@material-ui/lab/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import { experiences } from "./experiencesConst";
 import { useStyles } from "./style";
 import { Fade } from "@material-ui/core";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 export default function Experiences() {
   const itemsRef = useRef([]);
@@ -46,15 +47,16 @@ export default function Experiences() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [goingUp]);
 
-  const classes = useStyles();
+  const context = useContext(ThemeContext);
+  const classes = useStyles(context.theme);
 
   return (
     <Timeline align="alternate">
       {experiences.map((experience, index) => (
-        <Fade in={isVisibleList[index]} timeout={500}>
+        <Fade in={isVisibleList[index]} timeout={500} key={index}>
           <TimelineItem ref={(el) => (itemsRef.current[index] = el)}>
             <TimelineOppositeContent>
-              <Typography variant="body1">{experience.name}</Typography>
+              <Typography variant="body1" className={classes.experienceName}>{experience.name}</Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot className={classes.appTimeLineDot}></TimelineDot>

@@ -8,7 +8,6 @@ function App() {
 
   const toogleTheme = () => {
     setActualTheme(actualTheme === themes.dark ? themes.light : themes.dark);
-    console.log('toogleTheme',actualTheme);
   }
 
   return (

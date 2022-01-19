@@ -1,6 +1,5 @@
 import { Button } from "@material-ui/core";
 import React, { useEffect } from "react";
-import { ThemeContext } from "../../Context/ThemeContext";
 import animatedBackground from "../../utils/AnimatedBackground";
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import { useStyles } from "./style";
@@ -31,6 +30,7 @@ export const DownloadCard = () => {
         <a
           href="https://www.linkedin.com/in/almir-arruda-070408156/"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             className={classes.imagemLogo}
@@ -38,7 +38,7 @@ export const DownloadCard = () => {
             alt="linkedin"
           />
         </a>
-        <a href="https://github.com/almirph" target="_blank">
+        <a href="https://github.com/almirph" target="_blank" rel="noreferrer">
           <img
             className={classes.imagemLogo}
             src="/imagens/logo-github.png"

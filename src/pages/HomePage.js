@@ -7,10 +7,9 @@ import { Jobs } from "../components/Jobs/Jobs";
 import { ThemeContext } from "../Context/ThemeContext";
 import { useStyles } from "./style";
 
-const HomePage = (props, c) => {
+const HomePage = () => {
   const context = useContext(ThemeContext);
-  console.log(context)
-  const classes = useStyles();
+  const classes = useStyles(context.theme);
 
   return (
     <React.Fragment>
@@ -21,15 +20,18 @@ const HomePage = (props, c) => {
             <Typography variant="h5" component="h2">
               Sobre mim
             </Typography>
-            <Typography variant="body1" color="textSecondary" component="p">
-              Olá sou Almir, atualmente sou Frontend Developer utilizando
-              Angular 2, tenho também 2 anos de experiência com ReactJS e
-              desenvolvimento Backend utilizando Springboot. Estou familiarizado
-              com os ritos do Scrum e com os estágios de desenvolvimento de
-              software. Mesmo que atualmente seja um desenvolvedor Frontend não
-              tenho problemas em trabalhar com Backend e banco de dados, tenho
-              experiência de 2 anos com SQLServer, bancos noSQL DynamoDB e
-              Redis.
+            <Typography variant="body1" color="textSecondary" component="div">
+              <div className={classes.cardText}>
+                Olá sou Almir, atualmente sou Frontend Developer utilizando
+                Angular 2, tenho também 2 anos de experiência com ReactJS e
+                desenvolvimento Backend utilizando Springboot. Estou familiarizado
+                com os ritos do Scrum e com os estágios de desenvolvimento de
+                software. Mesmo que atualmente seja um desenvolvedor Frontend não
+                tenho problemas em trabalhar com Backend e banco de dados, tenho
+                experiência de 2 anos com SQLServer, bancos noSQL DynamoDB e
+                Redis.
+              </div>
+
             </Typography>
           </CardContent>
         </Card>
