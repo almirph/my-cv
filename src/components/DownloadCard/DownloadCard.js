@@ -34,14 +34,14 @@ export const DownloadCard = () => {
         >
           <img
             className={classes.imagemLogo}
-            src="/imagens/logo-linkedin.png"
+            src="imagens/logo-linkedin.png"
             alt="linkedin"
           />
         </a>
         <a href="https://github.com/almirph" target="_blank" rel="noreferrer">
           <img
             className={classes.imagemLogo}
-            src="/imagens/logo-github.png"
+            src="imagens/logo-github.png"
             alt="github"
           />
         </a>
