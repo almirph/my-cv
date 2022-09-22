@@ -22,7 +22,7 @@ const HomePage = () => {
             </Typography>
             <Typography variant="body1" color="textSecondary" component="div">
               <div className={classes.cardText}>
-                Olá sou Almir, sou apaixonado por tecnologia desde a primeria
+                Olá sou Almir, sou apaixonado por tecnologia desde a primeira
                 vez que tive contato com um computador, gosto de criar coisas
                 novas e inovadoras e a computação é a minha vocação. A faculdade
                 de Ciência da Computação tornou possível seguir meu sonho de
