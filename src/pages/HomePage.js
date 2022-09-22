@@ -22,16 +22,12 @@ const HomePage = () => {
             </Typography>
             <Typography variant="body1" color="textSecondary" component="div">
               <div className={classes.cardText}>
-                Olá sou Almir, atualmente sou Frontend Developer utilizando
-                Angular 2, tenho também 2 anos de experiência com ReactJS e
-                desenvolvimento Backend utilizando Springboot. Estou familiarizado
-                com os ritos do Scrum e com os estágios de desenvolvimento de
-                software. Mesmo que atualmente seja um desenvolvedor Frontend não
-                tenho problemas em trabalhar com Backend e banco de dados, tenho
-                experiência de 2 anos com SQLServer, bancos noSQL DynamoDB e
-                Redis.
+                Olá sou Almir, sou apaixonado por tecnologia desde a primeria
+                vez que tive contato com um computador, gosto de criar coisas
+                novas e inovadoras e a computação é a minha vocação. A faculdade
+                de Ciência da Computação tornou possível seguir meu sonho de
+                trabalhar com o que amo que é desenvolvimento de software.
               </div>
-
             </Typography>
           </CardContent>
         </Card>
